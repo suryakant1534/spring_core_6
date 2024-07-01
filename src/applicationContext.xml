@@ -10,6 +10,7 @@
     />
 
     <bean
+            class="com.spring.Student"
             id="student"
             factory-bean="get_object"
             factory-method="getStudent"
