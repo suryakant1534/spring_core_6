@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Employee employee = (Employee) context.getBean("employee");
+        Student student = (Student) context.getBean("student");
 
-        System.out.println(employee);
+        System.out.println(student);
 
         context.close();
     }
